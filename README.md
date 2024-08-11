@@ -2,7 +2,7 @@ This project is a simple maze-solving application using Python's `curses` librar
 
 Description:
 
-Objective:**
+Objective:
 The program displays a maze and uses a breadth-first search (BFS) algorithm to find the shortest path from a start point ('O') to an endpoint ('X'). The maze and the pathfinding process are visualized in the terminal using color and text.
 
 Components:
@@ -19,7 +19,7 @@ Components:
 3. Terminal Display:
    - Uses `curses` to create a color-based terminal interface. Blue is used for the maze, and red is used for the path found by the BFS algorithm.
 
-4. **Execution Flow:
+4.Execution Flow:
    - `wrapper(main)`: Initializes the `curses` environment and starts the main function.
    - `main(stdscr)`: Sets up color pairs for terminal output and calls the `find_path` function to solve the maze.
 
